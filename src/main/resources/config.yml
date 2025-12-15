@@ -8,9 +8,8 @@ join-message:
   ranks:
     admin:
       permission: "joinmessages.admin"
-      message: "&c[ADMIN] &f%player% joined the server"
+      message: "&b>&c>&a> &c[ADMIN] %player% &6slid into the lobby! &a<&c<&b<"
 
     vip:
       permission: "joinmessages.vip"
       message: "&a[VIP] %player% &6slid in the lobby!"
-  
