@@ -1,0 +1,25 @@
+name: JoinMessages
+version: 1.1
+main: me.herex.joinmessages.JoinMessagesPlugin
+api-version: 1.8
+author: Herex
+depend: [LuckPerms]
+
+commands:
+  joinmessages:
+    description: Reload the JoinMessages config
+    usage: /joinmessages reload
+    aliases: [jm]
+
+  silentjoin:
+    description: Toggle silent join mode
+    usage: /silentjoin
+
+permissions:
+  joinmessages.reload:
+    description: Allows reloading the JoinMessages config
+    default: op
+
+  joinmessages.silent:
+    description: Allows using silent join
+    default: op

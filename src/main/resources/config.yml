@@ -1,0 +1,30 @@
+join-message:
+  enabled: true
+
+  default: ""
+
+  # Order = priority (TOP = highest)
+  ranks:
+    admin:
+      permission: "joinmessages.admin"
+      message: "&c[ADMIN] &f%player% joined the server"
+
+    mvp++:
+      permission: "joinmessages.mvp++"
+      message: "&b>&c>&a> %prefix%%player% &6slid in the lobby! &a<&c<&b<"
+
+    mvp+:
+      permission: "joinmessages.mvp+"
+      message: "%prefix%%player% &6slid in the lobby!"
+
+    mvp:
+      permission: "joinmessages.mvp"
+      message: "&b[MVP] %player% &6slid in the lobby!"
+
+    vip+:
+      permission: "joinmessages.vip+"
+      message: "&a[VIP&6+&a] %player% &6slid in the lobby!"
+
+    vip:
+      permission: "joinmessages.vip"
+      message: "&a[VIP] %player% &6slid in the lobby!"
